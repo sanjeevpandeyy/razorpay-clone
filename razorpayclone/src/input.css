@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@source "./*.html";
+@source "./src/**/*.{js,html}";
+
+@theme {
+  --color-deepBlue: #02042a;
+  --color-lightBlue: #2b84ea;
+  --color-lightBlue300: #4b94ed;
+  --color-lightBlue500: #0b72e7;
+  --color-greenLight: #61cea6;
+  --color-grayText: #818597;
+  --color-lightGray: #e2e2e2;
+  --color-grayBlue: #344a6c;
+  --color-deepBlueHead: #162f56;
+  --color-gray2: #525a76;
+
+  --font-mullish: "Mulish", sans-serif;
+
+  /* 🔥 FIXED */
+  --background-image-feature-2: url('../imgs/feature-section-2BG.svg');
+  --background-image-feature-3: url('../imgs/instant-settlement-bg.svg');
+  --background-image-feature-4: url('../imgs/instant-settlement-bghover.svg');
+  --background-image-feature-5: url('../imgs/core-features-sectionBg.svg');
+  --background-image-feature-6: url('../imgs/CTABg.svg');
+
+}
